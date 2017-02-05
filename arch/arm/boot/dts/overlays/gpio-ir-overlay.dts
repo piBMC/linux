@@ -15,7 +15,7 @@
                                 gpios = <&gpio 18 1>;
 
                                 // parameter for keymap name
-                                linux,rc-map-name = "rc-rc6-mce";
+                                linux,rc-map-name = "rc-lirc";
 
                                 status = "okay";
                         };
