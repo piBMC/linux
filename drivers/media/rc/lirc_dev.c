@@ -172,7 +172,7 @@ static int lirc_cdev_add(struct irctl *ir)
 	int retval = -ENOMEM;
 	struct lirc_driver *d = &ir->d;
 	struct cdev *cdev;
-	int retval;
+
 	cdev = kzalloc(sizeof(*cdev), GFP_KERNEL);
 	if (!cdev)
 		return -ENOMEM;
